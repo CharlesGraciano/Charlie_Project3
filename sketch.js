@@ -1,6 +1,6 @@
 var img;
 function preload(){
-	img=loadImage("1p.png")
+	img=loadImage("Charlie_Project3/1p.png")
 }
 
 function setup() {
