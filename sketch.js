@@ -1,7 +1,4 @@
-var img;
-function preload(){
-	img=loadImage("Charlie_Project3/1p.png")
-}
+
 
 function setup() {
   createCanvas(1090, 720);
