@@ -1,8 +1,15 @@
+var img;
+function preload(){
+	img=loadImage("1p.png")
+}
+
 function setup() {
   createCanvas(2000, 2000);
+
 }
 
 function draw() {
+
   if (mouseIsPressed) {
     fill(0);
   } else {
