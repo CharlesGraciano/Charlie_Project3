@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ATTRACTIONS</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 1px;
+  text-align: center;
+  background: #ED2939;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #7b7365;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+ 
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #363636;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="background-color:#01579B">
+
+<div class="header">
+  <h1 style="font-family:impact; font-size: 1100%; color:white;">ATTRACTIONS</h1>
+  
+</div>
+
+<div class="topnav">
+  <a href="file:///Users/charlesgraciano/Desktop/Charlie%20web%20/index.html">HOME</a>
+  <a href="file:///Users/charlesgraciano/Desktop/Charlie%20web%20/events.html">EVENTS</a>
+  <a href="#">TICKETS/HOURS</a>
+  
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2 style="font-size: 300%; font-family: impact">COASTERS</h2>
+      <h5>FOR THE THRILL SEEKER</h5>
+      <div class="fakeimg" style="height:500px;"><img src="cs.jpg" width="100%" height="100%"></div>
+      <p> CALIFORNIA'S BEST COASTERED THEME PARK</p>
+    </div>
+    <div class="card">
+      <h2 style="font-family: impact; font-size: 300%"> OTHER THRILLS</h2>
+      <div class="fakeimg" style="height:500px;"><img src="tr.jpg" width="100%" height="100%"></div>
+     
+      <p>ULTIMATE FOR EVERYONE TO ENJOY.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2 style="font-family: impact">EXPIERENCE IT</h2>
+      <div class="fakeimg" style="height:240px;"><img src="bottomright.gif"></div>
+      
+    </div>
+    <div class="card">
+      <h3 style="font-family: impact">HAPPENING NOW</h3>
+      <div class="fakeimg"><p><img src="s.jpg" width="100%" height="70%"></p></div>
+      
+    </div>
+    <div class="card">
+      <h3 style=" font-family: impact">FOLLOW US</h3>
+      <p><img src="tags.jpg" width="238" height="55"></p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>WELCOME TO CHARLIE'S WORLD</h2>
+</div>
+
+</body>
+</html>
+
